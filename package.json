@@ -1,0 +1,20 @@
+{
+  "name": "tech-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "scss": "node-sass --watch style/scss style.scss style.css -o style/scss/"
+  },
+  "author": "Matt Pickett",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
