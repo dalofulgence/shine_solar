@@ -1,1 +1,35 @@
 @import 'partials/main';
+
+table{
+    border: 1px solid $white;
+    border-radius: 2px;
+    border-collapse: collapse;
+    column-gap: 100px;
+    width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+
+
+}
+
+body{
+    text-align: left;
+    background-color: $light-four;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+    border: none;
+}
+.name{
+    color: $blue-primary;
+}
+
+tr:visited, tr:hover, tr:active, tr:focus {
+    background-color: $light-six;
+}
+h5{
+    color: $brand-primary;
+    text-align: left;
+    margin-left: -100px;
+}
